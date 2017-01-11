@@ -1,6 +1,8 @@
-package game.tamagotchi;
+package game.tamagotchi.contollers;
 
 import javax.swing.JOptionPane;
+
+import game.tamagotchi.classes.Tamagotchi;
 
 public class GameController {
 	private String time;
@@ -27,7 +29,7 @@ public class GameController {
 		setAlive(false);
 	}
 
-	public void beggining() {
+	public void begginning() {
 		JOptionPane.showMessageDialog(null,
 				"Olá, Bem-Vindo ao Tamagotchi, jogue esta divertida versão do maior classico da sua infância.");
 		JOptionPane.showMessageDialog(null,
@@ -64,7 +66,7 @@ public class GameController {
 	}
 
 	public Tamagotchi startGame() {
-		beggining();
+		begginning();
 		Tamagotchi tamagotchi = born();
 		setAlive(true);
 
