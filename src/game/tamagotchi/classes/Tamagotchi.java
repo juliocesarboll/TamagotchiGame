@@ -1,4 +1,4 @@
-package game.tamagotchi;
+package game.tamagotchi.classes;
 
 import javax.swing.JOptionPane;
 
